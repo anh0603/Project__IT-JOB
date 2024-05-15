@@ -1,0 +1,14 @@
+.search__list {
+    overflow: hidden;  
+    margin-top: 10px;
+}
+.salary{
+    font-weight: 600;
+}
+ 
+.Job__box {
+    width: 100%;
+    height: 340px;
+    line-height: 30px;
+    overflow: hidden;
+}

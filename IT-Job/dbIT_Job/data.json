@@ -1,0 +1,436 @@
+{
+  "cities": [
+    {
+      "key": 1,
+      "value": "Hà Nội",
+      "id": "c373"
+    },
+    {
+      "key": 2,
+      "value": "Thành phố Hồ Chí Minh",
+      "id": "32b9"
+    },
+    {
+      "key": 3,
+      "value": "Đà Nẵng",
+      "id": "d496"
+    },
+    {
+      "key": 4,
+      "value": "Hải Phòng",
+      "id": "410d"
+    }
+  ],
+  "tags": [
+    {
+      "key": 1,
+      "value": "Javascript",
+      "id": "a1b9"
+    },
+    {
+      "key": 2,
+      "value": "Java",
+      "id": "fb67"
+    },
+    {
+      "key": 3,
+      "value": "Python",
+      "id": "ff9f"
+    },
+    {
+      "key": 4,
+      "value": "C#",
+      "id": "cc83"
+    },
+    {
+      "key": 5,
+      "value": "React",
+      "id": "d858"
+    },
+    {
+      "key": 6,
+      "value": "Node.js",
+      "id": "d2fd"
+    },
+    {
+      "key": 7,
+      "value": "Angular",
+      "id": "b828"
+    },
+    {
+      "key": 8,
+      "value": "HTML/CSS",
+      "id": "dfdc"
+    },
+    {
+      "key": 9,
+      "value": "PHP",
+      "id": "063e"
+    },
+    {
+      "key": 10,
+      "value": "Ruby",
+      "id": "3999"
+    },
+    {
+      "key": 10,
+      "value": "SQL",
+      "id": "e7f5"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "idCompany": 1,
+      "name": "Software Engineer",
+      "tags": [
+        "Javascript",
+        "Node.js",
+        "React"
+      ],
+      "salary": "$1000-$3000",
+      "description": "Developing web applications using JavaScript stack. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula risus eu nisi laoreet, id fringilla tortor sodales. Curabitur volutpat libero ut lacus vehicula, sit amet mattis purus convallis. Fusce mattis feugiat diam, et dictum odio. Integer laoreet, arcu nec fermentum aliquet, mi turpis venenatis nunc, nec lacinia odio tortor nec erat.",
+      "status": true,
+      "createAt": "2024-05-08T16:58:09Z",
+      "city": [
+        "Hà Nội",
+        "Đà Nẵng"
+      ],
+      "updateAt": "2024-05-08T16:58:09Z"
+    },
+    {
+      "id": "2",
+      "idCompany": 2,
+      "name": "Java Developer",
+      "tags": [
+        "Java",
+        "Spring",
+        "Hibernate"
+      ],
+      "salary": "$3000 - $5000",
+      "description": "Building enterprise-level applications using Java technologies. Duis vel purus vitae justo vestibulum vestibulum in id magna. Vestibulum sit amet convallis velit, vel pellentesque felis. Aliquam et malesuada metus, nec gravida nunc.",
+      "status": true,
+      "createAt": "2024-05-08T16:58:09Z",
+      "city": [
+        "Đà Nẵng"
+      ],
+      "updateAt": "2024-05-08T16:58:09Z"
+    },
+    {
+      "id": "3",
+      "idCompany": 3,
+      "name": "Python Developer",
+      "tags": [
+        "Python",
+        "Django",
+        "Flask"
+      ],
+      "salary": "$2500-$5000",
+      "description": "Creating web services and APIs using Python frameworks. Fusce mattis feugiat diam, et dictum odio. Integer laoreet, arcu nec fermentum aliquet, mi turpis venenatis nunc, nec lacinia odio tortor nec erat. Vivamus efficitur euismod mauris, in bibendum mi vehicula in.",
+      "status": true,
+      "createAt": "2024-05-08T16:58:09Z",
+      "city": [
+        "Hải Phòng"
+      ],
+      "updateAt": "2024-05-08T16:58:09Z"
+    },
+    {
+      "id": "4",
+      "idCompany": 4,
+      "name": "SQL Database Administrator",
+      "tags": [
+        "SQL"
+      ],
+      "salary": "$4000 - $6000",
+      "description": "Managing and maintaining SQL databases. Nullam vehicula risus eu nisi laoreet, id fringilla tortor sodales. Curabitur volutpat libero ut lacus vehicula, sit amet mattis purus convallis. Fusce mattis feugiat diam, et dictum odio.",
+      "status": true,
+      "createAt": "2024-05-08T16:58:09Z",
+      "city": [
+        "Thành phố Hồ Chí Minh"
+      ],
+      "updateAt": "2024-05-08T16:58:09Z"
+    },
+    {
+      "id": "5",
+      "idCompany": 5,
+      "name": "Full Stack Developer",
+      "tags": [
+        "Javascript",
+        "Node.js",
+        "React",
+        "Java",
+        "Spring"
+      ],
+      "salary": "$4000 - $6000",
+      "description": "Building both front-end and back-end components of web applications. Duis vel purus vitae justo vestibulum vestibulum in id magna. Vestibulum sit amet convallis velit, vel pellentesque felis.",
+      "status": true,
+      "createAt": "2024-05-08T16:58:09Z",
+      "city": [
+        "Thành phố Hồ Chí Minh"
+      ],
+      "updateAt": "2024-05-08T16:58:09Z"
+    },
+    {
+      "id": "8151",
+      "name": "Python Application Developer Tại Hồ Chí Minh (Thu Nhập Hấp Dẫn)",
+      "tags": [
+        "Python",
+        "C#"
+      ],
+      "salary": "2000-2500",
+      "city": [
+        "Hà Nội"
+      ],
+      "description": "Analyze system requirement, design and develop modules for existing ERP solutions\nDevelop customizations and/or integrations with third party systems\nTroubleshoot and resolve technical issues, ensuring optimal user experience.\nReview the code & ensure its stability, reliability & performance\nAnalyze issues, errors & debugging\n",
+      "idCompany": "1",
+      "createAt": "15-05-2024 17:38:37"
+    },
+    {
+      "id": "e535",
+      "name": "IT Help Desk Engineer / IT Support Tại Hà Nội (Thu Nhập Hấp Dẫn)",
+      "tags": [
+        "SQL",
+        "Ruby",
+        "PHP"
+      ],
+      "salary": "3000$",
+      "city": [
+        "Đà Nẵng",
+        "Thành phố Hồ Chí Minh"
+      ],
+      "description": "Desktop support (Installing, troubleshooting PC, Laptop, IP Phone, and Printer...)\nNetwork and Infrastructure support (Installing, troubleshooting, network devices, servers, etc.)\nBiz Apps support (Installing, troubleshooting...)\nSetting up user accounts, permissions and passwords\nTechnical support for users using the network\nDocumentation of all networks\nDay to day admin and monitoring of network use\nTraining staff on new systems\nLogging and keeping records of users queries\nTesting and fixing faulty equipment\nOverseeing security of all systems\nMaking sure all IT meets industry standards\nPlanning future improvements, suggesting IT solutions to business problems\nProject support (BOM, PR/PO, contract, delivery - implementation support, etc.)",
+      "status": true,
+      "idCompany": "1",
+      "createAt": "15-05-2024 19:52:33"
+    }
+  ],
+  "company": [
+    {
+      "id": "1",
+      "companyName": "Công ty ABC",
+      "phone": "0123456789",
+      "email": "abc@example.com",
+      "password": "hashed_password",
+      "token": "nDRBzsmU8h9LY6XGpQcK",
+      "address": "123 Đường ABC, Thành phố HCM",
+      "workingTime": "Thứ 2 - Thứ 6, 8:00 AM - 5:00 PM",
+      "website": "https://www.congtyabc.com",
+      "quantityPeople": "51",
+      "description": "Công ty ABC chuyên sản xuất sản phẩm công nghệ.",
+      "detail": "Công ty ABC được thành lập năm 2000, đã phát triển thành một trong những công ty hàng đầu trong lĩnh vực công nghệ."
+    },
+    {
+      "id": "2",
+      "companyName": "Công ty XYZ",
+      "phone": "0987654321",
+      "email": "xyz@example.com",
+      "password": "hashed_password",
+      "token": "eJgYqz6nRtP2Ws9vCm8L",
+      "address": "456 Đường XYZ, Thành phố Hà Nội",
+      "workingTime": "Thứ 2 - Thứ 7, 9:00 AM - 6:00 PM",
+      "website": "https://www.congtyxyz.com",
+      "quantityPeople": 100,
+      "description": "Công ty XYZ là một trong những doanh nghiệp hàng đầu trong lĩnh vực tài chính.",
+      "detail": "Công ty XYZ đã có hơn 30 năm kinh nghiệm trong ngành tài chính."
+    },
+    {
+      "id": "3",
+      "companyName": "Công ty DEF",
+      "phone": "0123456789",
+      "email": "def@example.com",
+      "password": "hashed_password",
+      "token": "QeG4HtF6Xu3MvS9JpLwN",
+      "address": "789 Đường DEF, Thành phố Đà Nẵng",
+      "workingTime": "Thứ 2 - Thứ 6, 8:30 AM - 5:30 PM",
+      "website": "https://www.congtydef.com",
+      "quantityPeople": 80,
+      "description": "Công ty DEF chuyên sản xuất sản phẩm thực phẩm.",
+      "detail": "Công ty DEF đã thành lập từ năm 1990, là một trong những doanh nghiệp uy tín trong ngành thực phẩm."
+    },
+    {
+      "id": "4",
+      "companyName": "Công ty XYZ",
+      "phone": "0987654321",
+      "email": "xyz@example.com",
+      "password": "hashed_password",
+      "token": "mQr6KpDc8ZsUzbRDn9hL",
+      "address": "456 Đường XYZ, Thành phố Hà Nội",
+      "workingTime": "Thứ 2 - Thứ 7, 9:00 AM - 6:00 PM",
+      "website": "https://www.congtyxyz.com",
+      "quantityPeople": 100,
+      "description": "Công ty XYZ chuyên phát triển ứng dụng di động.",
+      "detail": "Công ty XYZ được thành lập năm 2010, đã xây dựng nên nhiều ứng dụng di động thành công trên thị trường."
+    },
+    {
+      "id": "5",
+      "companyName": "Công ty UVW",
+      "phone": "0369852147",
+      "email": "uvw@example.com",
+      "password": "hashed_password",
+      "token": "pDbF3LwY7sVzTqRmU9Kc",
+      "address": "789 Đường UVW, Thành phố Đà Nẵng",
+      "workingTime": "Thứ 3 - Thứ 7, 8:30 AM - 5:30 PM",
+      "website": "https://www.congtyuvw.com",
+      "quantityPeople": 80,
+      "description": "Công ty UVW chuyên phát triển phần mềm.",
+      "detail": "Công ty UVW được thành lập năm 2015, đã tạo ra nhiều sản phẩm phần mềm thành công cho các doanh nghiệp khác nhau."
+    },
+    {
+      "id": "9111",
+      "companyName": "Anh Dev",
+      "email": "nguyenvana@gmail.com",
+      "phone": "0347882257",
+      "password": "Password123",
+      "token": "09u7Aph4jg4F0FqfSbMc"
+    }
+  ],
+  "cv": [
+    {
+      "id": "1",
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "Nguyễn Văn A",
+      "phone": "0123456789",
+      "email": "nguyenvana@example.com",
+      "description": "Tôi là một lập trình viên có kinh nghiệm, đã làm việc trong nhiều dự án lớn.",
+      "linkProject": "https://github.com/nguyenvana",
+      "city": "Hà Nội",
+      "statusRead": false,
+      "createAt": "2023-04-29T21:22:17Z"
+    },
+    {
+      "id": "2",
+      "idCompany": 2,
+      "idJob": 2,
+      "name": "Trần Thị B",
+      "phone": "0987654321",
+      "email": "tranthib@example.com",
+      "description": "Tôi là một kỹ sư phần mềm với kinh nghiệm làm việc trong môi trường phát triển phần mềm doanh nghiệp.",
+      "linkProject": "https://github.com/trantb",
+      "city": "Thành phố Hà Nội",
+      "statusRead": true,
+      "createAt": "2023-05-01T10:15:30Z"
+    },
+    {
+      "id": "3",
+      "idCompany": 3,
+      "idJob": 3,
+      "name": "Lê Văn C",
+      "phone": "0123456789",
+      "email": "levanc@example.com",
+      "description": "Tôi là một lập trình viên Python có kinh nghiệm làm việc với Django và Flask.",
+      "linkProject": "https://github.com/levanc",
+      "city": "Đà Nẵng",
+      "statusRead": false,
+      "createAt": "2023-05-05T08:30:45Z"
+    },
+    {
+      "id": "200b",
+      "name": "Trần Đức Anh",
+      "phone": "0347882257",
+      "email": "ducanh2762003@gmail.com",
+      "city": "Thành phố Hồ Chí Minh",
+      "description": "tôi thích học hỏi công nghệ mới, sở thích nghe nhạc and coder",
+      "linkPrject": "https:/github/anh0603",
+      "idJob": "5",
+      "idCompany": "5",
+      "createAt": "12-05-2024 17:29:24"
+    },
+    {
+      "id": "2d86",
+      "name": "Anh Dev",
+      "phone": "34234234",
+      "email": "ducanh",
+      "city": "Thành phố Hồ Chí Minh",
+      "description": "Giỏi",
+      "linkPrject": "giởi",
+      "idJob": "e535",
+      "idCompany": 1,
+      "createAt": "15-05-2024 23:14:36"
+    },
+    {
+      "id": "724b",
+      "name": "adas",
+      "phone": "423432",
+      "email": "anhne2762003@gmail.com",
+      "city": "Đà Nẵng",
+      "description": "đá",
+      "linkPrject": "ádas",
+      "idJob": "e535",
+      "idCompany": "1",
+      "createAt": "15-05-2024 23:15:39"
+    },
+    {
+      "id": "c249",
+      "name": "Trần Đức Anh",
+      "phone": "34234234",
+      "email": "asdasd@gmail.com",
+      "city": "Đà Nẵng",
+      "description": "asd",
+      "linkPrject": "asd",
+      "idJob": "e535",
+      "idCompany": 1,
+      "createAt": "15-05-2024 23:22:24"
+    },
+    {
+      "id": "a161",
+      "name": "Trần Đức Anh",
+      "phone": "34234234",
+      "email": "asdasd@gmail.com",
+      "city": "Thành phố Hồ Chí Minh",
+      "description": "á",
+      "linkPrject": "ád",
+      "idJob": "e535",
+      "idCompany": 1,
+      "createAt": "15-05-2024 23:32:07"
+    },
+    {
+      "id": "742e",
+      "name": "adas",
+      "phone": "423432",
+      "email": "asdasd@gmail.com",
+      "city": "Hà Nội",
+      "description": "asdas",
+      "linkPrject": "asda",
+      "idJob": "1",
+      "idCompany": 1,
+      "createAt": "15-05-2024 23:49:06"
+    },
+    {
+      "id": "6733",
+      "name": "Trần Đức Anh",
+      "phone": "0347882257",
+      "email": "asdasd@gmail.com",
+      "city": "Đà Nẵng",
+      "description": "qwe",
+      "linkPrject": "qweqwe",
+      "idJob": "2",
+      "idCompany": "2",
+      "createAt": "16-05-2024 00:01:00"
+    },
+    {
+      "id": "615e",
+      "name": "Trần Đức Anh",
+      "phone": "sdf",
+      "email": "asdasd@gmail.com",
+      "city": "Đà Nẵng",
+      "description": "sdfsd",
+      "linkPrject": "sdfsd",
+      "idJob": "1",
+      "idCompany": "1",
+      "createAt": "16-05-2024 00:11:27"
+    },
+    {
+      "id": "c00e",
+      "name": "Trần Đức Anh",
+      "phone": "asda",
+      "email": "asdasd@gmail.com",
+      "city": "Hà Nội",
+      "description": "dasd",
+      "linkPrject": "asd",
+      "idJob": "8151",
+      "idCompany": "1",
+      "createAt": "16-05-2024 00:12:05"
+    }
+  ]
+}
